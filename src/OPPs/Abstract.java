@@ -1,0 +1,15 @@
+package OPPs;
+abstract class Shape {
+    abstract void draw ();
+}
+class Circle extends Shape {
+    void draw (){
+        System.out.println("Drawing Circle ");
+    }
+}
+public class Abstract {
+    public static void main(String[] args) {
+        Shape sh = new Circle();
+        sh.draw();
+    }
+}
